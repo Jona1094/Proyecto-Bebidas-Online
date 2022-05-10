@@ -155,26 +155,31 @@ box-sizing: border-box;
 .imgprod1 {
     width: 280px;
     height: 200px;
+    transform: rotate(360deg);
 }
 
 .imgprod2 {
     width: 180px;
     height: 270px;
+    transform: rotate(360deg);
 }
 
 .imgprod3 {
     width: 180px;
     height: 250px;
+    transform: rotate(360deg);
 }
 
 .imgprod4 {
    width: 60px;
    height: 220px;
+   transform: rotate(360deg);
 }
 
 .imgprod5 {
     width: 90px;
     height: 230px;
+    transform: rotate(360deg);
 }
 
 .grid__hijo img {
