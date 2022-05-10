@@ -152,10 +152,15 @@ box-sizing: border-box;
     font-size: 25px;
 }
 
+.productos:hover {
+    transform: rotate(160deg);
+    transform: scale(0.8);
+    transition-duration: 4seg;
+}
+
 .imgprod1 {
     width: 280px;
     height: 200px;
-    transform: rotate(360deg);
 }
 
 .imgprod2 {
