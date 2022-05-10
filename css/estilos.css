@@ -91,24 +91,6 @@ box-sizing: border-box;
 
 }
 
-
-.inicio__imagen {
-    margin: 30px;
-    width: 400px;
-    height: 300px;
-    border: black solid 2px;
-    border-radius: 10px;
-    animation-name: logo;
-    animation-duration: 5s;
-
-}
-
-@keyframes logo {
-    0% {left: 0; top: 0;}
-    25% {left: 300px; top:0px}
-}
-
-
 .footer {
     display: flex;
     justify-content: space-around;
