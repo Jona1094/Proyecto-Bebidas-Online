@@ -57,6 +57,7 @@ box-sizing: border-box;
     margin: 3rem;
     border: 5px solid black;
     border-radius: 1rem;
+    width: 500px;
 }
     
 
@@ -109,6 +110,7 @@ box-sizing: border-box;
 
 .footer {
     display: flex;
+    margin: 1rem;
     justify-content: space-around;
     background-color: black;
     color: white;
@@ -122,6 +124,7 @@ box-sizing: border-box;
 .producto {
     
     display: grid;
+    margin-top: 1rem;
     justify-content: center;
     align-content: center;
     justify-items: center;
@@ -219,6 +222,10 @@ box-sizing: border-box;
     padding: 10px;
 }
 
+.fondo {
+    background-color: black;
+}
+
 .form__input {
     background-image: url(../imagenes/Wave\ Line.svg);
     font-size: 25px;
@@ -275,34 +282,27 @@ box-sizing: border-box;
    
 }
 
-
 @media screen and (max-width: 1023px) {
     .header {height: 80px;}
     .nav__enlace {font-size: 10px;}
     .logoimg {display: block; width: 150px; height: 80px; flex-direction: row;}
-    .inicio__titulo-1 {font-size: 30px; margin: 15px;}
-    .inicio__listas {font-size: 25px; margin: 15px;}
     .inicio__imagen {width: 250px; height: 200px; text-align: center; margin: 5px;}
     .inicio__titulo-2 {font-size: 30px;}
-    .footer {font-size: 10px; gap: 20px;}
     .producto {display: none;}
     .producto {display: flex;flex-direction: column; align-items: center;}
     .productos {width: 250px; height: 400px; image-resolution: 100px 100px; font-size: 10px;}
+    
 }
 
 @media screen and (max-width: 600px) {
-    .header {height: 80px; display: flex; justify-content: space-around;}
-    .logoimg {display: block; width: 150px; height: 80px; flex-direction: row-reverse;}
-    .nav__enlace {display: none;}
+    .header {height: 80px;}
     .icononav {display: block; flex-direction: row-reverse;}
     .inicio__titulo-1 {font-size: 30px; margin: 15px;}
     .inicio__listas {font-size: 25px; margin: 15px;}
     .inicio__imagen {width: 250px; height: 200px; text-align: center; margin: 5px;}
     .inicio__titulo-2 {font-size: 30px;}
-    .footer {font-size: 10px; gap: 20px;}
     .producto {display: none;}
     .producto {display: flex; flex-direction: column; align-items: center;}
     .productos {width: 250px; height: 400px; image-resolution: 100px 100px; font-size: 10px;}
-
-
-}
+    .card {width: 300px;}
+    .footer {font-size: 2px;}
